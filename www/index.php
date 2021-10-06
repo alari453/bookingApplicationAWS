@@ -36,7 +36,7 @@
 
             /*input data into table*/
             while($row = $q->fetch()){
-              echo "<tr><td>".$row["bookingID"]."</td><td>".$row["fName"]."</td><td>".$row["lName"]."</td><td>".$row["bookingtTime"]."</td></tr>\n";
+              echo "<tr><td>".$row["bookingID"]."</td><td>".$row["fName"]."</td><td>".$row["lName"]."</td><td>".$row["time"]."</td></tr>\n";
             }
           ?>
 

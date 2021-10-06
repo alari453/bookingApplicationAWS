@@ -43,23 +43,23 @@ label {
 }
 
 .bookingSubmit {
-    background-color: #4CAF50;
+    background-color: #F3410B;
     border: 1px solid black;
     border-radius: 5px;
     padding: 7px;
-    color: #fff;
+    color: black;
     width: 300px;
     margin: 0 auto 20px auto;
 }
 
 .bookingSubmit:hover{
-    background-color:#fff;
-    color: #4CAF50;
+    background-color:#E9886B;
+    color: #F3410B;
     border: 1px solid black;
     cursor: pointer;
 }
 
 .submitBooking:focus {
     outline: none;
-    box-shadow: 2px 2px #4CAF50;
+    box-shadow: 2px 2px #F3410B;
 }

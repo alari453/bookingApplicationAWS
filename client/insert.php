@@ -4,7 +4,7 @@
 
         // Check connection
         if($link === false){
-            die("ERROR: Could not connect. " . mysqli_connect_error());
+            die("ERROR: Could not connect to database. " . mysqli_connect_error());
         }
         $fName = mysqli_real_escape_string($link, $_REQUEST['fName']);
         $lName = mysqli_real_escape_string($link, $_REQUEST['lName']);
@@ -12,11 +12,12 @@
         $time = mysqli_real_escape_string($link, $_REQUEST['time']);
 
         $sql = "INSERT INTO schedule (fName, lName, email, time) VALUES ('$fName', '$lName', '$email', '$time')";
+        
         if(mysqli_query($link, $sql)){
-            echo "Records added successfully.</br>";
+            echo "Records added successfully!</br>";
             
         } else{
-            echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+            echo "ERROR: Was not able to execute $sql. " . mysqli_error($link);
         }
         
         /* close db connection */
