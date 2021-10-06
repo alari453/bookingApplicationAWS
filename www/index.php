@@ -3,15 +3,7 @@
 <html>
   <head>
     <title>Mars Reservation Booking Details</title>
-      <!--table styling-->
-      <style>
-      th { text-align: left; }
-      table, th, td {
-        border: 4px solid grey;
-        border-collapse: collapse;}
-      th, td {
-        padding: 0.5em;}
-      </style>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>

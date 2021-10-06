@@ -19,6 +19,7 @@ body {
 
 .container {
     width: 100%;
+    text-align: center;
     clear: both;
     padding: 10px;   
 }
@@ -35,3 +36,18 @@ label {
     width: 160px;
     text-align: left;
 }
+
+/*table styling*/
+th { 
+    text-align: left; 
+}
+
+table, th, td {
+  border: 4px solid grey;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.5em;
+}
+
