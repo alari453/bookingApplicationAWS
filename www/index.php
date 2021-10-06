@@ -7,7 +7,7 @@
       <style>
       th { text-align: left; }
       table, th, td {
-        border: 5px solid grey;
+        border: 4px solid grey;
         border-collapse: collapse;}
       th, td {
         padding: 0.5em;}
