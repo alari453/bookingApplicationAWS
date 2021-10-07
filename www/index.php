@@ -18,7 +18,7 @@
         <div class="grid-item">
         <h2>Current Bookings to Mars:</h2>
           
-          <table border="5">
+          <table class="center">
             <tr><th>BOOKINGID</th><th>FIRST NAME</th><th>LAST NAME</th><th>BOOKING TIME</th></tr>
             <!--call information from database:-->
             <?php
