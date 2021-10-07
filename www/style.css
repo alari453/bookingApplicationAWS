@@ -10,6 +10,7 @@ html {
 
 h1 {
     width: 1000px;
+    text-align: center;
 }
 
 .container {
@@ -21,7 +22,7 @@ h1 {
 
 #header1 {
     border-bottom: 1px solid grey;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     height: 50px;
     width: 320px;
 }
@@ -62,4 +63,18 @@ label {
 .submitBooking:focus {
     outline: none;
     box-shadow: 2px 2px #F3410B;
+}
+
+/*table styling*/
+th { 
+    text-align: left; 
+}
+
+table, th, td {
+    border: 5px solid grey;
+    border-collapse: collapse;
+}
+
+ th, td {
+    padding: 0.5em;
 }
