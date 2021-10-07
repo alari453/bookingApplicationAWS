@@ -14,7 +14,7 @@
         $sql = "INSERT INTO schedule (fName, lName, email, time) VALUES ('$fName', '$lName', '$email', '$time')";
         
         if(mysqli_query($link, $sql)){
-            echo "Records added successfully!</br>";
+            echo "Record added successfully! Please go back to make another! </br>";
             
         } else{
             echo "ERROR: Was not able to execute $sql. " . mysqli_error($link);
@@ -24,5 +24,3 @@
         mysqli_close($links);
         
 ?>
-<a class="currentBookings" href="http://192.168.2.12"> View Current Bookings</a>
-<a class="currentBookings" href="http://192.168.2.11"> Make another booking</a>
