@@ -41,7 +41,7 @@
             </table>
             <br>
             <br>
-            <a class="newBooking" href="http://ec2-44-192-37-234.compute-1.amazonaws.com/"> Make Another Booking</a>
+            <a class="newBooking" href="http://ec2-44-195-92-173.compute-1.amazonaws.com/"> Make Another Booking</a>
           </div>
         </div>
   </body>
