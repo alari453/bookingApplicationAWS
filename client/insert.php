@@ -15,7 +15,6 @@
         
         if(mysqli_query($link, $sql)){
             echo "Record added successfully!</br>";
-            
         } else{
             echo "ERROR: Was not able to execute $sql. " . mysqli_error($link);
         }
@@ -24,6 +23,7 @@
         mysqli_close($links);
         
 ?>
-    <a class="currentBookings" href="http://ec2-44-192-40-52.compute-1.amazonaws.com/"> View Current Bookings</a>
+    <a class="currentBookings" href="http://ec2-35-175-131-223.compute-1.amazonaws.com/"> View Current Bookings</a>
     <br>
-    <a class="newBooking" href="http://ec2-44-195-92-173.compute-1.amazonaws.com/"> Make Another Booking</a>
+    <button onclick="document.location='index.html'">Make another booking</button>
+    <a class="newBooking" href="http://ec2-3-239-168-85.compute-1.amazonaws.com/"> Make Another Booking</a>
