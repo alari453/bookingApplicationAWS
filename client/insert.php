@@ -23,7 +23,6 @@
         mysqli_close($links);
         
 ?>
-    <a class="currentBookings" href="http://ec2-35-175-131-223.compute-1.amazonaws.com/"> View Current Bookings</a>
+    <a class="currentBookings" href="http://ec2-3-239-161-40.compute-1.amazonaws.com/"> View Current Bookings</a>
     <br>
-    <button onclick="document.location='index.html'">Make another booking</button>
-    <a class="newBooking" href="http://ec2-3-239-168-85.compute-1.amazonaws.com/"> Make Another Booking</a>
+    <a class="newBooking" href="http://ec2-3-222-188-192.compute-1.amazonaws.com/"> Make Another Booking</a>
